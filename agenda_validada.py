@@ -56,7 +56,7 @@ def dataValida(data):
         datetime.strptime(data, '%d/%m/%Y')
         return True
     except ValueError:
-        return False
+        return False     
 
 def telefoneValido(telefone):
     return re.fullmatch(r"\d{8,10}", telefone) is not None
@@ -97,6 +97,7 @@ def cadastrar(agd):
         if dataValida(aniversario):
             break
         print("Data inválida! Tente novamente.")
+
 
     while True:
         endereco = input("Endereço: ").strip()
