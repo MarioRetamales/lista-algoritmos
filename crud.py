@@ -6,7 +6,7 @@ def apresenteSe():
     print('|                                                             |')
     print('| AGENDA PESSOAL DE ANIVERSÁRIOS E FORMAS DE CONTATAR PESSOAS |')
     print('|                                                             |')
-    print('| Seu Nome - RA: SeuRA                                        |')
+    print('| Mário Retamales Giusti - RA: 25017542                       |')
     print('|                                                             |')
     print('| Versão 2.0 de 18/06/2025                                    |')
     print('|                                                             |')
